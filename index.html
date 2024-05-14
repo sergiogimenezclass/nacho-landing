@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing-Page</title>
+    <link rel="stylesheet" href="estilos.css">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        .wrapper {
+            background: linear-gradient(black, grey);
+            height: 105vh;
+            /* margin: 10px; */
+            display: grid;
+            align-items: center;
+            /* background-image: url(Elrefugio.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover; */
+            margin-top: 0px;
+        }
+
+        .article1 {
+            display: grid;
+            grid-template-columns: 40% 20% 40%;
+            margin-left: 130px;
+        }
+
+        .titulo {
+            color: yellow;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bolder;
+            border: yellow double 5px;
+            text-align: center;
+            font-size: xx-large;
+            background-color: rgb(138, 138, 0);
+            border-radius: 10px;
+            margin-bottom: 5px;
+            padding: 8px;
+        }
+
+        .parrafo1,
+        .parrafo2,
+        .parrafo3 {
+            font-family: Arial, Helvetica, sans-serif;
+            color: yellow;
+            font-weight: lighter;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .imagen1 {
+            width: 700px;
+            height: 200px;
+            margin-top: 30px;
+        }
+
+        .imagen2 {
+            width: 450px;
+            height: 550px;
+        }
+
+        .formulario {
+            border: solid yellow 10px;
+            border-radius: 10px;
+            background-color: rgb(138, 138, 0);
+            width: 400px;
+            margin-left: 90px;
+            height: 600px;
+            padding: 30px;
+        }
+
+        .titulo1 {
+            color: yellow;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bolder;
+            text-align: center;
+            font-size: 25px;
+            margin-bottom: 50px;
+        }
+
+        label {
+            font-weight: bold;
+            font-family: Arial, Helvetica, sans-serif;
+            color: yellow;
+        }
+
+        .input_formulario {
+            width: 300px;
+            height: 25px;
+            margin-bottom: 30px;
+        }
+
+        .button_box {
+            text-align: center;
+        }
+
+        .button {
+            color: yellow;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bolder;
+            text-align: center;
+            font-size: large;
+            background-color: yellow;
+            border: yellow solid 10px;
+            border-radius: 10px;
+            margin-top: 50px;
+            color: black;
+        }
+
+        .imagen3 {
+            width: 1858px;
+            height: 300px;
+            margin-top: 50px;
+        }
+
+        .redes_box {
+            margin-top: 50px;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+        }
+
+        .redes {
+            height: 50px;
+            padding: 5px;
+        }
+
+        /* .redinstagram {
+    margin-left: 700px;
+}
+
+.redfacebook {
+    margin-right: 450px;
+}
+
+.redwhatss {
+    margin-right: 500px;
+} */
+
+        .imagen4 {
+            width: 1850px;
+            height: 100px;
+            /* margin-top: 10px;
+    margin-bottom: 50px; */
+        }
+    </style>
+</head>
+
+<body class="wrapper">
+    <img class="imagen4"
+        src="https://static.vecteezy.com/system/resources/previews/026/799/009/original/warning-tape-yellow-with-black-police-line-and-danger-tapes-png.png"
+        alt="">
+    <main>
+        <article class="article1">
+            <div>
+                <h1 class="titulo">¡PLAN A sin dudas, es tu mejor opcion!</h1>
+                <p class="parrafo1"> Llego el plan de formación anual para bailarines, que tanto estaban esperando, que
+                    tiene el objetivo
+                    brindar las herramientas necesarias para elevar tu danza al maximo! </p>
+
+                <p class="parrafo2"> En Marzo arranca este hermoso Programa de entrenamiento para bailarines, si abonas
+                    la cuota ahora en
+                    febrero lo congelamos hasta Junio a solo $45.000 mensual (cantidad de clases 36) se cursa martes,
+                    miercoles, jueves, viernes y sabado.
+
+                    Tambien esta la opcion de tomar clase suelta. ( DE 1 , 2 O 3 CLASES DEL DIA)</p>
+
+                <p class="parrafo3"> LAS MAÑANAS VAN A SER DE MUCHO BAILE Y ENTRENAMIENTO </p>
+                <img class="imagen1" src="PlanAb.jpg" alt="">
+            </div>
+
+            <img class="imagen2" src="https://fortedancecenter.com.mx/wp-content/uploads/2023/06/Jump.png" alt="">
+
+            <form class="formulario" action="">
+                <h1 class="titulo1">¡¡DEJANOS TUS DATOS Y TE MANDAMOS MAS INFO!!</h1>
+                <label for="">Nombre y Apellido</label>
+                <input class="input_formulario" type="text">
+                <label for="">Email</label>
+                <input class="input_formulario" type="text">
+                <label for="">Telefono</label>
+                <input class="input_formulario" type="text">
+                <div class="button_box"><button class="button">SOLICITAR INFORMACION</button></div>
+            </form>
+
+            <!-- <div class="redes_box">
+                <img class="redes" src="https://cdn-icons-png.freepik.com/256/4494/4494468.png?semt=ais_hybrid" alt="">
+                <img class="redes" src="https://cdn-icons-png.freepik.com/256/32/32978.png?semt=ais_hybrid" alt="">
+                <img class="redes" src="https://cdn-icons-png.flaticon.com/256/154/154858.png" alt="">
+            </div> -->
+
+        </article>
+
+    </main>
+
+    <div class="redes_box">
+        <img class="redes redinstagram" src="https://cdn-icons-png.freepik.com/256/4494/4494468.png?semt=ais_hybrid"
+            alt="">
+        <img class="redes redfacebook" src="https://cdn-icons-png.freepik.com/256/32/32978.png?semt=ais_hybrid" alt="">
+        <img class="redes redwhatss" src="https://cdn-icons-png.flaticon.com/256/154/154858.png" alt="">
+    </div>
+
+    <img class="imagen4"
+        src="https://static.vecteezy.com/system/resources/previews/026/799/009/original/warning-tape-yellow-with-black-police-line-and-danger-tapes-png.png"
+        alt="">
+
+</body>
+
+</html>
